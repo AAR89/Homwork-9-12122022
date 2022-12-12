@@ -7,9 +7,9 @@ Console.Write("Введите число m: ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число n: ");
 int n = Convert.ToInt32(Console.ReadLine());
-int functionAkkerman = A(m, n);
+int functionAckerman = A(m, n);
 
-Console.Write($"m = {m}, n = {n} -> A(m,n) = {functionAkkerman} ");
+Console.Write($"m = {m}, n = {n} -> A(m,n) = {functionAckerman} ");
 
 int A(int m, int n)
 {
